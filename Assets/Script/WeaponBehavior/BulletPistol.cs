@@ -40,9 +40,14 @@ public class BulletPistol : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             StartCoroutine(WaitAndExecute());
-            Destroy(gameObject); // Hủy viên đạn sau khi va chạm
+            Destroy(gameObject);// Hủy viên đạn sau khi va chạm
         }
-    }
+        if (collision.gameObject.name.Contains("Robot")) 
+        {
+            Destroy(gameObject);
+        }
+            
+    }   
 
     //Đợi vài giây trước khi huỷ
     private IEnumerator WaitAndExecute()

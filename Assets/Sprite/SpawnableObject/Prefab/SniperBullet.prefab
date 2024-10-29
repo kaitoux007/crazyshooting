@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2913916526461088593}
   - component: {fileID: 8204418280693059672}
   - component: {fileID: 6092163925300384841}
+  - component: {fileID: 7005159113204175825}
   m_Layer: 0
   m_Name: SniperBullet
   m_TagString: PistolBullet
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5369467325702976799}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.84, y: 1.94, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.84, y: 1.94, z: -1.7009037e-11}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -148,8 +149,8 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 1.0346975, y: 1.0262334}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    border: {x: 34.249996, y: 24.655117, z: 8.339999, w: 23.834948}
+    pivot: {x: 0.7798361, y: 0.51020145}
     oldSize: {x: 50, y: 54.15124}
     newSize: {x: 16, y: 12}
     adaptiveTilingThreshold: 0.5
@@ -173,3 +174,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletBody: {fileID: 0}
   bulletRenderer: {fileID: 0}
+--- !u!114 &7005159113204175825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369467325702976799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8d66b62172415f4b9c212279ae4f46c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
